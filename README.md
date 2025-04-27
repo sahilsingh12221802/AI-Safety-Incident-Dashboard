@@ -1,8 +1,9 @@
 # 🚨 AI Safety Incident Dashboard  
 
-A responsive React dashboard for tracking AI safety incidents, featuring filtering, sorting, and incident reporting. Built for **HumanChain's Frontend Intern Assignment**.  
+A responsive React dashboard for tracking AI safety incidents, featuring filtering, sorting, and incident reporting. Built for **SparkleHood Frontend Intern Assignment**.  
 
-<img width="1440" alt="Screenshot 2025-04-27 at 5 09 54 PM" src="https://github.com/user-attachments/assets/22a2d923-9e42-436f-bda2-3b8ecb3e9142" />
+<img width="1438" alt="Screenshot 2025-04-27 at 5 20 33 PM" src="https://github.com/user-attachments/assets/7ffb6ff2-c421-41e5-ba1d-4e4d638dd19b" />
+
 
 
 ## 🛠️ Tech Stack  
