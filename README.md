@@ -43,6 +43,7 @@ src/
 │   ├── FilterSortControls.jsx  # Filter and sort UI components
 │   ├── IncidentForm.jsx        # New incident reporting form
 │   └── IncidentList.jsx        # Incident display component
+│   └── StatsOverview.jsx        # Card designing
 ├── data/
 │   └── mockIncidents.js        # Sample incident data
 ├── pages/
