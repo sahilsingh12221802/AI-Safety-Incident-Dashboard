@@ -1,12 +1,87 @@
-# React + Vite
+# 🚨 AI Safety Incident Dashboard  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React dashboard for tracking AI safety incidents, featuring filtering, sorting, and incident reporting. Built for **HumanChain's Frontend Intern Assignment**.  
 
-Currently, two official plugins are available:
+<img width="1440" alt="Screenshot 2025-04-27 at 4 13 07 PM" src="https://github.com/user-attachments/assets/6a93e110-6129-4225-81d7-0c4c4fde5f28" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **Framework**: React (Vite)  
+- **Language**: JavaScript  
+- **Styling**: Tailwind CSS (Flexbox/Grid)  
+- **State Management**: React Hooks  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features  
+- 📜 **Incident List**: View titles, severity levels, and dates.  
+- 🔍 **Filter/Sort**: Filter by severity (`All/Low/Medium/High`) or sort by date.  
+- 📝 **Add New Incidents**: Form with validation.  
+- 📱 **Fully Responsive**: Works on mobile, tablet, and desktop.  
+- 🎨 **Hover Effects**: Interactive buttons and cards.  
+
+## 🚀 How to Run  
+1. **Clone the repo**:  
+   ```bash
+   git clone https://github.com/your-username/ai-safety-dashboard.git
+   cd ai-safety-dashboard
+   ```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Start the dev server**:
+   ```bash
+    npm run dev
+   ```
+4. Open in browser:
+    - Visit ```http://localhost:5173 ```
+
+## 📂 Project Structure
+
+```plaintext
+src/
+├── components/
+│   ├── FilterSortControls.jsx  # Filter and sort UI components
+│   ├── IncidentForm.jsx        # New incident reporting form
+│   └── IncidentList.jsx        # Incident display component
+├── data/
+│   └── mockIncidents.js        # Sample incident data
+├── pages/
+│   └── Dashboard.jsx           # Main dashboard page
+├── App.jsx                     # Root component
+└── main.jsx                    # Application entry point
+```
+
+## 🎨 Design Decisions
+
+1. **Responsive Layout:**
+   - Uses Tailwind's responsive grid (`grid-cols-1 md:grid-cols-2`)
+   - Form moves from side-by-side to stacked on mobile
+
+2. **User Experience:**
+   - Color-coded severity badges (Red/High, Yellow/Medium, Green/Low)
+   - Smooth hover transitions on interactive elements
+   - Form validation prevents empty submissions
+
+3. **State Management:**
+   - Local state for filtering/sorting logic
+   - No external state management libraries (per assignment requirements)
+
+4. **Performance:**
+   - Vite for fast development builds
+   - Pure CSS (Tailwind) for minimal runtime overhead
+  
+## 📝 Assignment Requirements Checklist
+- Display list of incidents (Title, Severity, Date)
+- Filter by severity (All/Low/Medium/High)
+- Sort by reported date (Newest/Oldest first)
+- Expandable incident details
+- Form to add new incidents with validation
+- Responsive layout (Flexbox/Grid)
+- Clean styling with hover effects
+- No backend required (pure frontend implementation)
+
+## 🤝 Contributing
+This project was created as part of an assignment and is not currently open for contributions.
+
+
+<i>Submitted by Sahil Singh for SparkleHood Frontend Internship</i>
