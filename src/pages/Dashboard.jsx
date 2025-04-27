@@ -42,7 +42,7 @@ export default function Dashboard() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-8">
         <header className="mb-12 text-center">
           <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-4">
-            AI Safety Intelligence
+            AI Safety Incident Dashboard
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Real-time monitoring and analysis of AI safety incidents
